@@ -15,6 +15,10 @@ The conversion to both **VHDL** and **Verilog** is a single pass where the outpu
 
 ## Goals and Targets
 We will introduce new classes, `bit`, `Structure`, `Interface` and `Array`, to replace the native objects  
-We will rework the conversion to a two-stage process where we first create an intermediate structure to represent the initials source code; the second pass will then convert the code to final **VHDL**, **Verilog**, **SystemVerilog** or **future other** reprersentation  
+We will rework the conversion to a two-stage process where we first create an intermediate structure to represent the initial source code; the second pass will then convert the code to final **VHDL**, **Verilog**, **SystemVerilog** or **future other** reprersentation  
 We intend to add hierchical conversion  
-We will try to add a `Parameter` object to mimic **VHDL**'s `generic`
+We will try to add a `Parameter` object to mimic **VHDL**'s `generic` construct
+
+## Notes
+First efforts will target simulution (first!) and conversion to **VHDL**; conversion to thers will then follow
+
