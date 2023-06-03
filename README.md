@@ -9,7 +9,7 @@ His copyright will be maintained for all borrowed code.
 Except for the `Signal` and the *ingenious* `intbv()` objects original MyHDL uses native Pyton objects to represent RTL constructs.
 - using `bool()` to represent the single bit  
 - using *anonymous* classes to represent both `Structure` and `Interface` 
-- using *anonymous* list to represent `Array`
+- using *anonymous* list to represent `Array`  
 These *anonymous* objects make life difficult as e.g. they lack assignment.
 The conversion to both **VHDL** and **Verilog** is a single pass where the output is written *as fast as possible* 
 
